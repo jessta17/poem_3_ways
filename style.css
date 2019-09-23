@@ -1,0 +1,229 @@
+@import url("https://use.typekit.net/fwn3qad.css");
+
+body{
+    background-color: rgb(27, 3, 43);
+    padding: 2;
+    margin: 2;
+   
+}
+.info{
+    height: 20em;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+    p{
+    color: rgb(170, 166, 166);
+    font-size: 1.7em;
+    font-family: "Trade Gothic LT Std", sans-serif;
+    font-weight: inherit;
+    left: 30px;
+    kerning: 5em;
+    position: relative;
+    line-height: .75em;
+    }
+.stanza_1{
+    position: relative;
+}
+.stanza_2{
+    position: relative;
+    left: 30em;
+    margin-top: 2em;
+
+}
+
+.title{
+    font-family: "Mrs Eaves OT", serif;
+    font-size: 5.833em;
+    font-weight: inherit;
+    color: rgb(209, 209, 209);
+    top: 35px;
+    left: 30px;
+    position: relative;
+    margin-bottom: .5em;
+
+}
+.published{
+    color: rgb(93, 93, 94);
+    font-family: "Trade Gothic LT Std", sans-serif;
+    font-weight: lighter;
+    position: relative;
+    left: 53.5em;
+    top: -2.7em;
+}
+.author{
+    color: rgb(158, 155, 155);
+    font-family: "Trade Gothic LT Std", sans-serif;
+    font-weight: lighter;
+    position: relative;
+    left: 30px;
+    font-size: 3.34em;
+    margin-bottom: .1em;
+}
+.life{
+    color: rgb(106, 107, 110);
+    font-family: "Trade Gothic LT Std", sans-serif;
+    font-weight: lighter;
+    position: relative;
+    left: 28.4em;
+    top: -2.5em;
+    margin-top: .1em;
+}
+.divide{
+    background-color: rgb(6, 1, 17);
+    height: 1em;
+    width: 100%;
+    margin-bottom: 15em;
+}
+
+
+/* ----------- SMART PHONES ----------- */
+ 
+ 
+@media only screen and (max-width: 800px) {
+
+    body{
+        background: rgb(43, 5, 34);
+    }
+    p{
+        color: rgb(170, 166, 166);
+        font-size: .983em;
+        line-height: .75em;
+        font-kerning: auto;
+        font-family: "Trade Gothic LT Std", sans-serif;
+        font-weight: inherit;
+        position: relative;
+        left: 20px;
+        
+    }
+    .title{
+        font-family: "Mrs Eaves OT", serif;
+        font-weight: inherit;
+        font-size: 4.167em;
+        color: rgb(209, 209, 209);
+        position: relative;
+        top: 30px;
+        left: 25px;
+        margin-bottom: .5em;
+        width: 237px;
+    }
+    .stanza_1{
+        margin-bottom: 3em;
+    }
+
+    .stanza_2{
+        left: 0em;
+    
+    }
+    .published{
+        color: rgb(106, 107, 110);
+        font-family: "Trade Gothic LT Std", sans-serif;
+        font-weight: lighter;
+        position: relative;
+        left: 25px;
+        top: 0em;
+    }
+    .author{
+        color: rgb(158, 155, 155);
+        font-family: "Trade Gothic LT Std", sans-serif;
+        font-weight: lighter;
+        position: relative;
+        left: 25px;
+        font-size: 2em;
+        width: 40px;
+        margin-top: 1.5em;
+    }
+    .divide{
+        background-color: rgb(22, 1, 2);
+        height: 1em;
+        width: 100%;
+        margin-bottom: 5em;
+    }
+    .info{
+        height: 34em;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.432);
+    }
+    .life{
+        color: rgb(106, 107, 110);
+        font-family: "Trade Gothic LT Std", sans-serif;
+        font-weight: lighter;
+        position: relative;
+        left: 25px;
+        top: 0em;
+        margin-top: .3em;
+    }
+
+}
+ 
+/* ----------- TABLETS ----------- */
+ 
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+    body{
+        background: rgb(5, 14, 43);
+    }
+    p{
+        color: rgb(170, 166, 166);
+        font-size: 1.3em;
+        line-height: .9em;
+        font-family: "Trade Gothic LT Std", sans-serif;
+        font-weight: inherit;
+        position: relative;
+        line-height: .75em;
+        left: 30px;
+
+    }
+    .title{
+        font-family: "Mrs Eaves OT", serif;
+        font-weight: inherit;
+        font-size: 4.583em;
+        color: rgb(209, 209, 209);
+        top: 30px;
+        left: 30px;
+        margin-bottom: .3em;
+        position: relative;
+    }
+    .published{
+        color: rgb(106, 107, 110);
+        font-family: "Trade Gothic LT Std", sans-serif;
+        font-weight: lighter;
+        position: relative;
+        left: 25px;
+        margin-top: 2em;
+        top: 0em;
+        margin-bottom: 5em;
+
+    }
+    .stanza_1{
+        margin-bottom: 4em;
+    }
+    .author{
+        color: rgb(158, 155, 155);
+        font-family: "Trade Gothic LT Std", sans-serif;
+        font-weight: lighter;
+        position: relative;
+        left: 25px;
+        font-size: 2.65em; 
+    }
+    .life{
+        position: relative;
+        top: -2.2em;
+        left: 22.7em;
+    }
+    .divide{
+        background-color: rgb(0, 2, 27);
+        height: 1em;
+        width: 100%;
+        margin-bottom: 10em;
+    }
+    .info{
+        height: 20em;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.411);
+    }
+    .stanza_2{
+        left: 0em;
+        margin-bottom: 2em;
+    
+    }
+    
+}
